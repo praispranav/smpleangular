@@ -1,0 +1,25 @@
+
+<div class="rightbottom">
+    
+    <div 
+        *ngFor="let i of img" 
+        class="rightbottom-items row" 
+        style="justify-content: space-between;">
+        <div
+            class="rightbottom-img col-sm-2" 
+            style="overflow: hidden;">
+
+            <img 
+                src="{{i.src}}"
+                style="width:100%; transform: scale(4.3);" 
+                alt="none" /> <br/>
+
+        </div>
+        <div class="col-sm-9">
+            <h2 class="display-2">
+                {{i.text}}
+            </h2>
+        </div>
+    </div>
+
+</div>

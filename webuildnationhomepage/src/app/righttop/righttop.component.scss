@@ -1,0 +1,19 @@
+.righttop{
+    height: 20vw;
+    // box-shadow: 2px 2px 5px rgb(172, 172, 172);
+    border-radius: 3px;
+    padding: 1em;
+    overflow: hidden;
+}
+.righttop-img{
+    width: 5em;
+    background: white;
+    height: 5em;
+    margin: 6px;
+    border: 1px solid lightgrey;
+    border-radius: 5em;
+    &:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+}

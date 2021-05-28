@@ -1,0 +1,39 @@
+.leftbottom-parent{
+    margin-top: 3em;
+    flex-flow: row wrap;
+}
+.leftbottom-items{
+    position: relative;
+    height: 10em;
+    margin: 1em;
+    padding: 0.4em;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px rgb(179, 178, 178);
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 2px 2px 10px rgb(138, 136, 136);
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+}
+.leftbottom-child{
+    background: red;
+    height: 100%;
+    width: 100%
+}
+
+.leftbottom-ribbon{
+    width: 6em;
+    background: rgba(230,230,230,1);
+    height: 1.5em;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+}
+
+.leftbottom-ribbon:nth-of-type(2n){
+    background: blue;
+}

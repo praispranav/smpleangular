@@ -1,0 +1,26 @@
+.rightbottom{
+    padding: 2em;
+    padding-top:1em;
+    margin-top: 3em;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgb(181, 180, 180);
+}
+
+.rightbottom-items{
+    width: 100;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    height: 6em;
+    border: 1px solid lightgrey;
+    &:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+}
+.rightbottom-img{
+    height:3.5em;
+    border-radius: 60em;
+    background: red;
+}
